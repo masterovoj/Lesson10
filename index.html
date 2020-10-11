@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок №10. Формы. </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Start Формы Восстановления Пароля -->
+        <div class="container">            
+            <form action="#" class="tform" method="GET" enctype="multipart/form-data">
+
+                <div class="title">
+                    <p>Восстановление пароля</p>
+                </div>
+
+                <div class="subtitle">
+                    <p>Введите Email, на него будет выслан новый пароль</p>
+                </div>
+
+                <div class="tform-edit">
+                    <div class="tedit">
+                        <input type="email" class="tedit__mail" required id="mail" autocomplete="off" name="form[]" value="" placeholder="Почта*" >
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="back__btn">
+                        <span><a href="#">Вернуться в форму авторизации</a></span>
+                    </div>
+                </div>
+
+                <div class="tform-button">
+                    <div class="tbutton">
+                        <button type="submit" class="tbutton__sub">Отправить</button>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <span>* Если вы не получили письмо с паролем,
+                        проверьте папку Спам.</span>
+                </div>
+
+                <div class="account">
+                    <span class="noaccount">У вас нет аккаунта?</span>
+                    <span class="registration"><a href="#">Регистрация</a></span>
+                </div>
+
+            </form>            
+        </div>
+        <!-- End Формы Восстановления Пароля -->
+
+        <!-- Start Формы Авторизации -->
+        <div class="container">
+            <form action="#" class="tform" method="get" enctype="multipart/form-data">
+
+                <div class="title">
+                    <p>Вход</p>
+                </div>
+
+                <div class="tform-edit">
+                    <div class="tedit">
+                        <input type="email" class="tedit__mail" required id="mail" autocomplete="off" name="form[]" value="" placeholder="Почта*" >
+
+                        <input type="password" class="tedit__pass" required id="pass" autocomplete="off" name="form[]" value="" placeholder="Пароль*">
+                    </div>
+                </div>  
+                
+                <div class="rememder">
+                    <div class="tform-check">
+                        <div class="tcheck">
+                            <input type="checkbox" name="rem-check" id="rem-check">
+                            <label for="rem-check">Запомнить меня</label>
+                        </div>
+                        <div class="registration">
+                            <span><a href="#">Забыли пароль?</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tform-button">
+                    <div class="tbutton">
+                        <button type="submit" class="tbutton__sub">Отправить</button>
+                    </div>
+                </div>
+
+                <div class="input-with">
+                    <p class="noaccount">Войти через</p>
+                    <div class="social">
+                        <a href="#"><img src="img/vk.png" alt="В контакте"></a>
+                        <a href="#" class="facebook" ><img src="img/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="img/odnoklassniki.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="account">
+                    <span class="noaccount">У вас нет аккаунта?</span>
+                    <span class="registration"><a href="#">Регистрация</a></span>
+                </div>
+
+            </form>
+        </div>
+        <!-- End Формы Авторизации -->
+
+        <!-- Start Формы Регистрация -->
+        <div class="container">
+            <form action="#" class="tform" method="get" enctype="multipart/form-data">
+
+                <div class="title">
+                    <p>Регистрация</p>
+                </div>
+                
+                <div class="tform-edit">
+                    <div class="tedit">
+                        <input type="text" class="tedit__text" required id="name" autocomplete="off" name="form[]" value="" placeholder="Имя*" >
+
+                        <input type="text" class="tedit__text" required id="soname" autocomplete="off" name="form[]" value="" placeholder="Фамилия*">
+
+                        <input type="text" class="tedit__text" required id="login" autocomplete="off" name="form[]" value="" placeholder="Логин*" >
+
+                        <input type="email" class="tedit__mail" required id="mail" autocomplete="off" name="form[]" value="" placeholder="EMail*" >
+
+                        <input type="password" class="tedit__pass" required id="pass" autocomplete="off" name="form[]" value="" placeholder="Пароль*">                        
+
+                        <input type="password" class="tedit__pass" required id="pass" autocomplete="off" name="form[]" value="" placeholder="Повторите пароль*">
+                    </div>
+                </div> 
+
+                <div class="tform-radio">
+                    <div class="man">
+                        <input type="radio" name="sex" id="sex-man" value="man">
+                        <label for="sex-man">Мужчина</label>
+                    </div>
+                    <div class="woman">
+                        <input type="radio" name="sex" id="sex-woman" value="woman">
+                        <label for="sex-woman">Женщина</label>
+                    </div>                    
+                </div>
+
+                <div class="accept">
+                    <div class="tcheck">
+                        <input type="checkbox" name="accept-check" id="accept-check" value="yes">
+                        <label for="accept-check">Я согласен с</label>
+
+                        <span class="registration"><a href="#">Условия и правила</a></span>
+                    </div>
+                </div>
+
+                <div class="tform-button">
+                    <div class="tbutton">
+                        <button type="submit" class="tbutton__sub">Регистрация</button>
+                    </div>
+                </div>
+
+                <div class="account">
+                    <span class="noaccount">У вас есть аккаунт?</span>
+                    <div class="registration"><a href="#">Войти</a></div>
+                </div>
+
+            </form>
+        </div>
+        <!-- End Формы Регистрация -->
+    </div>
+</body>
+
+</html>

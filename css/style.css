@@ -1,0 +1,257 @@
+/* START FONTS */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+        url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.eot');
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff'),
+        url('../fonts/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+        url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* END FONTS */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #111428;
+    padding: 30px;
+}
+.container {
+    width: 100%;
+    max-width: 450px; 
+    margin: 0 auto;  
+    border: white 1px solid;
+    border-radius: 5px; 
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+
+.title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subtitle {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #64B369;
+    text-align: center;
+    margin-top: 10px;
+}
+.tedit {
+    text-align: center;
+    margin-top: 10px;
+}
+.tedit__mail {
+    width: 384px;
+    height: 50px;
+    border-radius: 5px;
+    color: #777777;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.tedit__pass {
+    width: 384px;
+    height: 50px;
+    border-radius: 5px;
+    color: #777777;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.tedit__text {
+    width: 384px;
+    height: 50px;
+    border-radius: 5px;
+    color: #777777;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.tcheck, .man, .woman {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.back__btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 60px;
+    background: url("../img/arrow-left.png") 30px 0px no-repeat;
+}
+.back__btn a {
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.tbutton {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.tbutton__sub {
+    width: 385px;
+    height: 50px;
+    background: #337AB7;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    cursor: pointer;
+}
+.comment {
+    width: 100%;
+    max-width: 350px;
+    color: #AEAEAE;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.account {
+    margin-top: 30px;
+    text-align: center;
+}
+.noaccount {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.registration {
+    display: inline-block;
+}
+.registration a {
+    padding-left: 10px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #64B369;
+    text-decoration: none;
+}
+.tform-check {
+    text-align: center;
+    margin-top: 30px;
+}
+.input-with {
+    margin-top: 30px;
+    text-align: center;
+}
+.social {
+    margin-top: 20px;
+}
+.facebook {
+    margin: 0px 30px;
+}
+.woman {
+    margin-left: 30px;
+}
+.tform-radio {
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.accept {
+    text-align: center;
+    padding-top: 30px;
+}
